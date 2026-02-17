@@ -2,7 +2,6 @@
 
 Design and implementation of VLAN-based traffic segmentation with deterministic multi-router path control using Cisco Packet Tracer.
 
----
 
 ## Project Overview
 
@@ -14,7 +13,7 @@ Since Cisco Packet Tracer does not support Layer 7 (application-level) traffic c
 
 Therefore, the design was adapted to use VLAN-based logical segmentation and subnet-level routing to simulate controlled traffic separation at Layer 2 and Layer 3.
 
----
+
 ## Network Architecture
 
 The network is designed to enforce deterministic path control through VLAN-based subnet segmentation:
@@ -26,7 +25,6 @@ The network is designed to enforce deterministic path control through VLAN-based
 
 Each VLAN is mapped to a dedicated subnet to ensure logical isolation and predictable Layer 3 forwarding.
 
----
 
 ## Implementation
 
@@ -40,7 +38,6 @@ Traffic forwarding behavior:
 - VLAN 10 traffic → Router 0  
 - VLAN 20 traffic → Router 1  
 
----
 
 ## Limitations
 
@@ -52,7 +49,6 @@ Due to Cisco Packet Tracer constraints:
 
 Traffic engineering is therefore subnet-based rather than content-based.
 
----
 
 ## Future Improvements
 
@@ -60,7 +56,6 @@ Traffic engineering is therefore subnet-based rather than content-based.
 - Application-aware routing using GNS3  
 - Firewall-integrated routing policies  
 
----
 
 ## Technical Scope
 
